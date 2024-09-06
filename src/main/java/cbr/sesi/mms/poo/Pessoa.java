@@ -5,7 +5,7 @@ import cbr.sesi.mms.poo.inferior.MembrosInferiores;
 import cbr.sesi.mms.poo.tronco.Tronco;
 
 public class Pessoa {
-    Cabeca cabeca;
+    public Cabeca cabeca;
     Tronco tronco;
     MembrosInferiores inferiores;
 }

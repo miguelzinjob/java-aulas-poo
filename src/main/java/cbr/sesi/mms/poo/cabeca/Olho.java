@@ -2,7 +2,7 @@ package cbr.sesi.mms.poo.cabeca;
 
 public class Olho {
 
-    String corIris;
-    float diametroOlho;
-    boolean cego;
+    public String corIris;
+    public float diametroOlho;
+    public boolean cego;
 }
