@@ -8,4 +8,10 @@ public class Pessoa {
     public Cabeca cabeca;
     Tronco tronco;
     MembrosInferiores inferiores;
+
+    public Pessoa(){
+        this.cabeca = new Cabeca();
+        this.tronco = new Tronco();
+        this.inferiores = new MembrosInferiores();
+    }
 }
