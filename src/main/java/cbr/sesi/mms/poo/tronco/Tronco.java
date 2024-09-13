@@ -1,6 +1,11 @@
 package cbr.sesi.mms.poo.tronco;
 
 public class Tronco {
-    Braco bracoesquerdo;
-    Braco bracodireito;
+    public Braco bracoesquerdo;
+    public Braco bracodireito;
+
+    public Tronco() {
+        this.bracoesquerdo = new Braco();
+        this.bracodireito = new Braco();
+    }
 }

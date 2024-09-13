@@ -1,6 +1,11 @@
 package cbr.sesi.mms.poo.inferior;
 
 public class MembrosInferiores {
-    Perna pernaesquerda;
-    Perna pernadireita;
+    public Perna pernaesquerda;
+    public Perna pernadireita;
+
+    public MembrosInferiores() {
+        this.pernaesquerda = new Perna();
+        this.pernadireita = new Perna();
+    }
 }

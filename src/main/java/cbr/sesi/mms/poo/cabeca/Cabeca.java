@@ -6,7 +6,7 @@ public class Cabeca {
     public Nariz nariz;
     public Boca boca;
 
-    public Cabeca(){
+    public Cabeca() {
         this.olho = new Olho();
         this.boca = new Boca();
         this.orelha = new Orelha();
